@@ -1,3 +1,6 @@
+GROUP18
+GROUP LEADER:OLOWO MORENIKEJI
+
 The browser sent an HTTP GET request for the path / to the Django development server at 127.0.0.1:8000, and the terminal logged it as GET / HTTP/1.1 with status 200.
 Django checked config/urls.py, which handed the empty path over to core/urls.py, where path("", views.home, name="home") matched and selected the home view.
 The home view built a context dictionary and called render() with core/home.html, which extends base.html, so the template engine filled in headline and active_requests and added the shared header, stylesheet link and footer.

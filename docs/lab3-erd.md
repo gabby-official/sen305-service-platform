@@ -1,4 +1,6 @@
 # Lab 3 ERD: Service Request Domain
+GROUP18
+GROUP LEADER:OLOWO MORENIKEJI
 
 | Parent | Relationship | Child | Deletion rule |
 |---|---|---|---|
