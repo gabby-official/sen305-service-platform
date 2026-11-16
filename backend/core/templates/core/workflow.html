@@ -1,0 +1,18 @@
+{% extends "core/base.html" %}
+
+{% block title %}Workflow | VUA ServiceDesk{% endblock %}
+
+{% block content %}
+<section class="page-heading">
+    <p class="eyebrow">Workflow</p>
+    <h1>How a request moves through the platform</h1>
+</section>
+
+<section>
+    <ol class="role-list">
+        {% for stage in stages %}
+            <li>{{ stage }}</li>
+        {% endfor %}
+    </ol>
+</section>
+{% endblock %}
